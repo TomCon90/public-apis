@@ -1,8 +1,18 @@
-function SelectCat({ cat, setCat }) {
+function SelectCat({ cat, setCat, setCount }) {
   return (
     <section>
       <h2>Select Kitty;</h2>
-      <button key="kitty">Change My Kitty</button>
+      <button
+        key={cat}
+        value={cat}
+        onClick={(cat) => {
+          setCount((oldCount) => {
+            return oldCount + 1;
+          });
+        }}
+      >
+        Change My Kitty
+      </button>
     </section>
   );
 }
