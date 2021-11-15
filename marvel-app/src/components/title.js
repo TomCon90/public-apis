@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header className="App-header">
-      <h1>Marvel Universe</h1>
+      <h1>Pick My KittyKat</h1>
     </header>
   );
 }
