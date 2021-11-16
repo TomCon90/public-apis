@@ -10,6 +10,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    setIsLoading(true);
     console.log("fetching data");
     fetch(`https://api.thecatapi.com/v1/images/search`)
       .then((response) => {

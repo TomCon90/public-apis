@@ -1,6 +1,7 @@
 // import { useState } from "react";
 
 function DisplayKittyKat({ cat, isLoading, setIsLoading }) {
+  console.log(isLoading, "<<<<<< DisplayKittyKat");
   if (isLoading) return <p>Loading...</p>;
   return (
     <main>
