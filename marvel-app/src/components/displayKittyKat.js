@@ -5,7 +5,6 @@ function DisplayKittyKat({ cat, isLoading, setIsLoading }) {
   return (
     <main>
       <img src={cat} alt="cat pic" width="500" height="600" />
-      {setIsLoading(true)}
     </main>
   );
 }
