@@ -1,3 +1,16 @@
+/*Structure Notes First Steps
+Create boiler plate React app see notes
+WireFrame and Component Tree map out React States
+Create Component dir and files under src dir
+Build App.js and initial component funtions
+Import all the component files in App.JS
+Import React useState
+Setup the component calls in App JS define prototypes later, dont forget capital first letter for component calls
+Console.log each component in the tree akin to backend so we now we are getting in to them
+Then import React for each component starting with the main parent in App.js
+Next move on to builder Header Component/Function
+App.JS now passes what it needs to react for the page to be rendered through the function in the index.js file
+*/
 import "./App.css";
 import Header from "./components/title";
 import { useState, useEffect } from "react";
