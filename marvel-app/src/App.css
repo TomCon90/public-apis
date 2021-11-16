@@ -1,3 +1,23 @@
 .App {
   text-align: center;
+  display: grid;
+  border: 2px blue solid;
+}
+.App-header {
+  border: 2px black solid;
+  background-color: rgb(202, 125, 125);
+}
+.selectCat {
+  border: 2px green solid;
+  background-color: rgb(238, 235, 40);
+}
+
+.displayCat {
+  border: 2px red solid;
+  background-color: rgb(53, 40, 238);
+}
+#SelectCatbttn {
+  font-size: 20px;
+  font-style: italic;
+  background-color: rgb(102, 211, 102);
 }

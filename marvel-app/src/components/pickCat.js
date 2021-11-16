@@ -2,21 +2,23 @@
 //increment the value of oldCount i.e counter variable by 1 do not use ++, this value is for use on the exit clause of
 //of the onEffect function so that we do a new fetch each time and dont cause an infinite loop, note this would cause
 //CORS issue
+//Install and import mui for the CCS predefined buttons and styling
+import { Chip } from "@mui/material";
+
 function SelectCat({ cat, setCount }) {
   return (
-    <section>
+    <section className="selectCat">
       <h2>Select Kitty;</h2>
-      <button
+      <Chip
+        id="SelectCatbttn"
         key={cat}
-        value={cat}
+        label="Select Cat"
         onClick={() => {
           setCount((oldCount) => {
             return oldCount + 1;
           });
         }}
-      >
-        Change My Kitty
-      </button>
+      ></Chip>
     </section>
   );
 }

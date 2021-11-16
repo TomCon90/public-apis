@@ -5,7 +5,7 @@ function DisplayKittyKat({ cat, isLoading }) {
   //console.log(isLoading, "<<<<<< DisplayKittyKat");
   if (isLoading) return <p>Loading...</p>;
   return (
-    <main>
+    <main className="displayCat">
       <img src={cat} alt="cat pic" width="500" height="600" />
     </main>
   );
